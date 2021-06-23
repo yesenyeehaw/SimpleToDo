@@ -32,8 +32,7 @@ GIF created with [Kap](https://getkap.co/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
+Ran into some trouble removing items from list, hope to get this issue resolved soon. 
 ## License
 
     Copyright [yyyy] [name of copyright owner]
