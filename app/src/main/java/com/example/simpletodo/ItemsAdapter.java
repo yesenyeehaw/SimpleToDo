@@ -10,7 +10,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+/*An adapter is a class that we create in order to handle data
+ *  A viewholder holds on to the text view and populates data into
+ *  our view.
+ */
 public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder>{
+
     public interface OnLongClickListener{
         void onItemLongClicked(int position);
     }
@@ -22,6 +27,7 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder>{
     }
     @NonNull
     @Override
+    //Responsible for creating each view
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         //Use layout inflator to inflate view
         View todoView = LayoutInflater.from(parent.getContext()).inflate(android.R.layout.simple_list_item_1, parent, false);

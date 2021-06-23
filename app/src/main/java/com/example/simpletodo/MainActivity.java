@@ -20,24 +20,30 @@ import android.widget.Toast;
 import org.apache.commons.io.FileUtils;
 
 public class MainActivity extends AppCompatActivity {
+
     List<String> items;
 
+    //Getting a handle of the features
     Button btnAdd;
     EditText etItem;
     RecyclerView rvItems;
+
     ItemsAdapter itemsAdapter;
 
     @Override
+    //informs us that our main activity has been created
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //Defining the member variables
         btnAdd = findViewById(R.id.btnAdd);
         etItem = findViewById(R.id.etItem);
         rvItems = findViewById(R.id.rvItems);
+        //etItem.setText("Im doing this from java!"); //*setting text example*
 
-        //etItem.setText("Im doing this from java!");
         loadItems();
+
+        // TEST DATA
         //items = new ArrayList<>();
 //        items.add("Buy milk");
 //        items.add("Walk fish");
@@ -55,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                     saveItems();
                 }
         };
-        final ItemsAdapter itemsAdapter = new ItemsAdapter(items, onLongClickListener);
+            itemsAdapter = new ItemsAdapter(items, onLongClickListener);
         rvItems.setAdapter(itemsAdapter);
         rvItems.setLayoutManager(new LinearLayoutManager(this));
 
