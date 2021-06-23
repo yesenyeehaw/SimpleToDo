@@ -32,7 +32,7 @@ GIF created with [Kap](https://getkap.co/).
 
 ## Notes
 
-Ran into some trouble removing items from list, hope to get this issue resolved soon. 
+Ran into some trouble removing items from list, hope to get this issue resolved soon. Upd8: Got it up and running as it should at 10:00AM 06/23/2021
 ## License
 
     Copyright [yyyy] [name of copyright owner]
