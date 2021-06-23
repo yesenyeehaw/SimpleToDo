@@ -1,6 +1,6 @@
 # Project 1 - *SIMPLE TODO*
 
-**Name of your app** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
+ToDo is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
 Submitted by: **Yesenia Andrade**
 
@@ -26,14 +26,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Kap](https://getkap.co/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
+Ran into some trouble removing items from list, hope to get this issue resolved soon. Upd8: Got it up and running as it should at 10:00AM 06/23/2021
 ## License
 
     Copyright [yyyy] [name of copyright owner]
